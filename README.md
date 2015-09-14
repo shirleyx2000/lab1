@@ -1,16 +1,16 @@
-Machine Problem 0: Working with a Tour de France DataSet
+Lab 1: Working with a Tour de France DataSet
 ===
 ... could be a tour de force.
 
 
-* This is the 0th machine problem and is worth 3% of the course grade. If you do not get all the 3% for this MP but you have completed Lab 1 in time then you will get up to 0.5% because of Lab 1.
-* **This is an individual assignment.** 
-* **It is due September 17 (Wednesday) by 11:00 a.m.** You cannot use any late days for this machine problem.
-* **How should you submit your work?** Please create a private repository at BitBucket called `mp0`. Share this repository (provide write access) to the TAs and the instructors (BitBucket ids will be provided on Piazza). Commit and push all your code to this repository before the deadline. You should always commit and push intermediate stages as well, so that you have saved your work safely.
+* This is the first lab activity and is intended to help you get acquainted with several Java features rather quickly.
+* **You can work in pairs or alone for this activity.** Pick a lab partner of your choice to work with.
+* **You should submit your work by Monday, September 21, 9:00 a.m.** Instructions for submitting your work will be announced along with instructions on submitting MP0.
+** _Lab work submissions will be lightly reviewed and graded._ For each lab task that you submit, you may offset deficiencies in specific machine problems. Submitting a correct implementation for Lab 1 may help you offset up to 0.5% (of the 3%) of marks lost in either MP0 or MP1 (not both). MP0 and MP1 each contribute 3% towards your final raw score.
 
-For this machine problem, you will have to write _a small amount of code_ but you should spend time reading the provided code to understand what you should write (which should, hopefully, be relatively straightforward) and also to understand how certain operations can be implemented in Java. Reading and learning from examples is one of the fastest ways to understand a new programming language. And do not hesitate in making changes and understanding what the impact of those changes is.
+For this lab activity, you will have to write _a small amount of code_ but you should spend time reading the provided code to understand what you should write (which should, hopefully, be relatively straightforward) and also to understand how certain operations can be implemented in Java. Reading and learning from examples is one of the fastest ways to understand a new programming language. And do not hesitate in making changes and understanding what the impact of those changes is.
 
-In this machine problem, you will work with a real dataset that represents that contains information about the average speeds of different bicyclists (bikers?) in the Tour de France. The data was gathered from the 2005 to 2012 editions of the Tour de France. All this data is stored in a simple text file (`tdf.txt`) in a comma-separated-values (CSV) format. If you look at the dataset, you will see four columns in each line. Each column is separated by a comma. The first column represents the competition year. The second column represents the average speed for a bicyclist, and the third and fourth columns represent the last name and first name, respectively, of the bicyclists.
+You will work with a real dataset that represents that contains information about the average speeds of different bicyclists (bikers?) in the Tour de France. The data was gathered from the 2005 to 2012 editions of the Tour de France. All this data is stored in a simple text file (`tdf.txt`) in a comma-separated-values (CSV) format. If you look at the dataset, you will see four columns in each line. Each column is separated by a comma. The first column represents the competition year. The second column represents the average speed for a bicyclist, and the third and fourth columns represent the last name and first name, respectively, of the bicyclists.
 
 We want to compute:
 * The improvement from one edition of the Tour de France to the next for each bicyclist and then display that best improvement for each bicyclist. As an example, suppose Lance Armstrong improved his speed by 0.5 km/hr from 2005 to 2006, and then by 0.75 km/hr from 2006 to 2007, then his best improvement from these two data points is 0.75 km/hr. (I did make this example up because Lance Armstrong’s last Tour de France was in 2005. And no one really wants to talk about Lance…)
@@ -43,10 +43,7 @@ Think about what an interface is. You will likely encounter this term in the rea
 ===
 
 **Advice**
-* Start early!
-* Make sure you are familiar with the [course policies](http://eece210.ece.ubc.ca/policies/), in particular on academic integrity and collaboration.
-* It is inefficient to expect to learn many language features before writing code. Dive right in! Eclipse can be your friend, in particular use the code completion feature to see what options you have.
+* _Attend your lab section._
+* It is inefficient to expect to learn many language features before writing code. Dive right in! Eclipse can be your friend; in particular: use the code completion feature to see what options you have.
 * Use the Java documentation on the Sun/Oracle website. Learn to read it.
 * Ask for help early — but not too early!
-* Do not post your own code on Piazza.
-* _Repeat: Start early!_
