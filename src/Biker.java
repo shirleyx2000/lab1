@@ -1,3 +1,8 @@
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+import java.util.ArrayList;
+import java.util.Map;
 import java.util.SortedMap;
 import java.util.TreeMap;
 
@@ -96,6 +101,12 @@ public class Biker {
         // TODO this is where you must add your code
         // the return statement is bogus for now
         // You need to implement this method correctly.
+        
+//        for (Map.Entry<Integer, Double> //thisEntry : averageSpeeds.entrySet()) {
+//            // is Map sorted? yes
+//            // thisEntry.getKey() //year
+//            // thisEntry.getValue() //average speed for that year
+//        }
         return 0.0;
     }
 
@@ -109,7 +120,19 @@ public class Biker {
         // TODO: return the median speed for this biker across the years
         // the return statement is bogus for now.
         // You need to implement this method correctly.
-        return 0.0;
+        List<Double> bikerSpeeds = new ArrayList<Double>();
+        //ArrayList<Double> sortedBikerSpeeds = new ArrayList<Double>(); 
+        for (int year : averageSpeeds.keySet()) {
+            bikerSpeeds.add(averageSpeeds.get(year));
+            //bikerSpeeds = averageSpeeds.get(year);
+        }
+        Collections.sort(bikerSpeeds);
+        int midpoint = bikerSpeeds.size()/2;
+        if (bikerSpeeds.size()%2 == 1) {
+            return bikerSpeeds.get(midpoint);
+        } else {
+            return (bikerSpeeds.get(midpoint-1) + bikerSpeeds.get(midpoint))/2.0;
+        }
     }
 
     /**

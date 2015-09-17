@@ -120,10 +120,12 @@ public class TdFMain {
             // Note the use of String.format( )
             System.out.println(String.format("%-30s: %s",
                     currentBiker.getName(), currentBiker.getBestGain()));
+            System.out.println("\nThe median speed for biker " + currentBiker.getName() + " is " + currentBiker.getMedianSpeed());
         }
 
         // TODO: Compute the median speed across all the entries.
         double medianSpeed = 0;
+
         // Your code for this should go here and should set the correct value in
         // medianSpeed.
 
